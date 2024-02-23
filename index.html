@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Alumnos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestión de Alumnos</h1>
+
+    <form id="alumno-form">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos" required><br>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" required><br>
+        <input type="submit" value="Agregar Alumno">
+    </form>
+
+    <div id="lista-alumnos">
+        <!-- Aquí se mostrará la lista de alumnos -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
